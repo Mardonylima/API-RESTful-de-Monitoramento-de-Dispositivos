@@ -1,3 +1,55 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Ambiente Virtual (mantenha fora do repositório)
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+
+# Banco de dados SQLite
+*.sqlite3
+
+# Arquivos de migração (se quiser ignorar temporariamente)
+# **Cuidado: só ignore se for intencional**
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Configurações e arquivos locais
+*.env
+*.local
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de testes
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Documentação
+docs/_build/
+
+# Arquivos do Postman
+*.postman_collection.json
