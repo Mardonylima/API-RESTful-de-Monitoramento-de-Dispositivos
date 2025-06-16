@@ -6,3 +6,7 @@ class SystemStatusSerializer(serializers.Serializer):
     memory = serializers.DictField()
     disk = serializers.DictField()
     system_info = serializers.DictField()
+
+
+class CpuUsageSerializer(serializers.Serializer):
+    cpu = serializers.FloatField()

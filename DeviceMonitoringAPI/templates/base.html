@@ -38,7 +38,12 @@
     <!-- JS do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Scripts adicionais -->
+    <!-- Chart.js (deve vir ANTES do cpuChart.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Scripts adicionais do projeto -->
     {% block scripts %}{% endblock %}
+    <script src="{% static 'js/cpuChart.js' %}"></script>
+
 </body>
 </html>
